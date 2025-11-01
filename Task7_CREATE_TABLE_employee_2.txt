@@ -1,0 +1,11 @@
+CREATE TABLE employee_2 (
+    emp_id INTEGER PRIMARY KEY,
+    name TEXT,
+    department_id INTEGER,
+    salary REAL
+);
+
+CREATE TABLE departments_2 (
+    department_id INTEGER PRIMARY KEY,
+    department_name TEXT
+);
